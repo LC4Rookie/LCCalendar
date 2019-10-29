@@ -1,0 +1,23 @@
+PODS:
+  - FSCalendar (2.8.0)
+  - LCCalendar (0.1.0):
+    - FSCalendar (~> 2.8)
+
+DEPENDENCIES:
+  - LCCalendar (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FSCalendar
+
+EXTERNAL SOURCES:
+  LCCalendar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
+  LCCalendar: 2effc2a61a2e4a58ce8dd627c15f3f9886ccb0b9
+
+PODFILE CHECKSUM: 0f5e67d8883d4f91a6c9ea5a58f1ff71a2e74f7f
+
+COCOAPODS: 1.7.1

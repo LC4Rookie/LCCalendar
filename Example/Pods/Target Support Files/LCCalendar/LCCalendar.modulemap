@@ -1,0 +1,6 @@
+framework module LCCalendar {
+  umbrella header "LCCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}

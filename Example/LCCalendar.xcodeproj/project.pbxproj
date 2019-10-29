@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		2F9D0158D7700D6BD68A1721 /* Pods-LCCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCalendar_Example.release.xcconfig"; path = "Target Support Files/Pods-LCCalendar_Example/Pods-LCCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3971ED995EC4B15813879738 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3971ED995EC4B15813879738 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		431ECF9849D750FCFF09656E /* Pods_LCCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54956D67771E050CA7D97ABE /* Pods-LCCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCalendar_Example.debug.xcconfig"; path = "Target Support Files/Pods-LCCalendar_Example/Pods-LCCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LCCalendar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCCalendar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,13 +60,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		66423843111E17B3DAEA63FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		66423843111E17B3DAEA63FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6F5E89DB0ACB5AD01EAC3C5A /* Pods-LCCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCalendar_Tests.release.xcconfig"; path = "Target Support Files/Pods-LCCalendar_Tests/Pods-LCCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6003A6597404A2E9695FCC0 /* Pods-LCCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCalendar_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LCCalendar_Tests/Pods-LCCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D82229D77BFB20B43B3720FD /* Pods_LCCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE9123CB26DAF66A439F9399 /* LCCalendar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LCCalendar.podspec; path = ../LCCalendar.podspec; sourceTree = "<group>"; };
+		FE9123CB26DAF66A439F9399 /* LCCalendar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LCCalendar.podspec; path = ../LCCalendar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				B6003A6597404A2E9695FCC0 /* Pods-LCCalendar_Tests.debug.xcconfig */,
 				6F5E89DB0ACB5AD01EAC3C5A /* Pods-LCCalendar_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,11 +302,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LCCalendar_Example/Pods-LCCalendar_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LCCalendar/LCCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LCCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

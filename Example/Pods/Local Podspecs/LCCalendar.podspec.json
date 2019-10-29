@@ -1,0 +1,27 @@
+{
+  "name": "LCCalendar",
+  "version": "0.1.0",
+  "summary": "A short description of LCCalendar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LC4Rookie",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1031700566@qq.com": "1031700566@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/LC4Rookie/LCCalendar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LCCalendar/Class/**/*",
+  "dependencies": {
+    "FSCalendar": [
+      "~> 2.8"
+    ]
+  }
+}
