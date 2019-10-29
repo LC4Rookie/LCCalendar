@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LCCalendar/Class/**/*'
+  s.source_files = 'Class/*.{h,m}'
   
   # s.resource_bundles = {
   #   'LCCalendar' => ['LCCalendar/Assets/*.png']
